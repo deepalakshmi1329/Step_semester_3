@@ -1,5 +1,6 @@
 import java.util.Scanner;
 class RotateArray {
+    
     static int[] rotateArray(int[] nums, int k) {
         k = k % nums.length;
         int[] newArray = new int[nums.length];

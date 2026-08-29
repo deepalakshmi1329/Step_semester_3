@@ -66,7 +66,6 @@ class MergeTwoSortedArrays {
         for (int x : result) {
             System.out.print(x + " ");
         }
-
         sc.close();
     }
 }
